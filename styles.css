@@ -1,0 +1,170 @@
+body {
+   font-family: Roboto Mono;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+}
+
+ul {
+   list-style-type: none;
+   font-size: 14px;
+   display: flex;
+   gap: 30px;
+   margin-right: 130px;
+   
+}
+
+a {
+   text-decoration: none;
+   color: #E5E7EB;
+   font-size: 18px;
+}
+
+button
+{
+   font-weight: bold;
+   padding: 8px 24px;
+   border-radius: 8px;
+   color: black;
+   background-color: #9d0911;
+   border: 0;
+}
+
+.header, 
+.header-content {
+   background-color: #1F2937;
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo {
+   font-size: 24px;
+   font-weight: bold;
+   color: #F9FAF8;
+   padding: 0;
+   margin: 6px 130px;
+}
+
+.header-content {
+   padding: 80px 0;
+   gap: 50px;
+}
+
+.container {
+   margin-left: 130px;
+   margin-right: 50px;
+}
+
+.header-image {
+   margin-right: 130px;
+   height: auto;
+   width: 600px;
+}
+
+.statement {
+   font-size: 48px;
+   font-weight: 900;
+   color: #F9FAF8;
+   max-width: 300px;
+}
+
+.subtext {
+   font-size: 18px;
+   color: #F9FAF8;
+   margin-bottom: 12px;
+   max-width: 500px;
+}
+
+.info-header {
+   font-size: 26px;
+   font-weight: 900;
+   color: #F9FAF8;
+   background-color: black;
+   text-align: center;
+   margin: 0;
+   padding-top: 80px;
+}
+
+.info-container {
+   display: flex;
+   justify-content: center;
+   gap: 60px;
+   padding-top: 75px;
+   padding-bottom: 120px;
+   background-color: black;
+}
+
+.info-image {
+   height: auto;
+   width: 200px;
+}
+
+.text {
+   font-size: 12px;
+   color: gray;
+   text-align: center;
+}
+
+.info {
+   max-width: 200px;
+}
+
+.quote-container {
+   background-image: url("images/evangelion3.jpeg");
+   background-size: cover;
+   padding: 200px;
+}
+
+.quote {
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+   font-weight: 100;
+   color: white;
+}
+
+.quotee {
+   margin-top: 10px;
+   font-size: 16px;
+   text-align: center;
+}
+
+.modal-container {
+   padding: 90px;
+   display: flex;
+   justify-content: center;
+   background-color: #1F2937;
+}
+
+.modal {
+   width: 800px;
+   gap: 20px;
+   border-radius: 10px;
+   background-color: #7f53be;
+   padding: 40px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.left {
+   display: flex;
+   flex-direction: column;
+   max-width: 500px;
+}
+
+.call-to-action-text {
+   text-align: left;
+   font-weight: bold;
+   font-size: 12px;
+   color: #333333
+}
+
+.join-now {
+   font-weight: bold;
+   padding: 8px 24px;
+   border-radius: 8px;
+   color: black;
+   background-color: #8ed96e;
+   border: 0;
+}
+
